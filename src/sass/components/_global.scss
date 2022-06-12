@@ -29,3 +29,9 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+h1, h2, h3 {
+    font-family: $font-heading;
+}
+p, a, li {
+    font-family: $font-body;
+}
