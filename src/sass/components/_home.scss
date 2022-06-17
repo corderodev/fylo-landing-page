@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-image: url(../assets/images/bg-curvy-mobile.svg);
+    background-position-x: center;
+    background-position-y: 20vh;
+    // background-position-y: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__banner {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    &__banner img{
+        width: 100%;
+    }
+
+    &__heading, &__body, &__btn {
+        color: $white;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 1rem 2rem;
+        line-height: 2rem;
+    }
+    &__heading {
+        line-height: 3rem;
+    }
+    &__body {
+        margin-bottom: 2rem;
+    }
+    &__btn {
+        padding: 14px 80px;
+        text-decoration: none;
+        border-radius: 60px;
+        border: none;
+        background: $blue;
+    }
+}

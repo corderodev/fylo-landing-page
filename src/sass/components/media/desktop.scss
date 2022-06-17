@@ -1,0 +1,22 @@
+h1 {
+    font-size: 2.4rem;    
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+p, a, li, button {
+    font-size: 1.8rem;
+}
+
+.home {
+    background-image: url(../../assets/images/bg-curvy-desktop.svg);
+
+    &__heading, &__body, &__btn {
+        line-height: 3rem;
+    }
+}
