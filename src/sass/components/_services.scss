@@ -1,0 +1,28 @@
+.services {
+    width: 100%;
+    height: auto;
+    padding: 10rem 1rem;
+    background-color: $dark-blue-main;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+    gap: 10rem;
+
+    &__card {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+    }
+    &__card--body h2{
+        margin-bottom: 1rem;
+    }
+    &__card--body p {
+        line-height: 2rem;
+    }
+}
