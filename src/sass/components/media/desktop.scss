@@ -20,6 +20,11 @@ p, a, li, button {
         line-height: 3rem;
     }
 }
+.stay-productive {
+    &__body p {
+        line-height: 3rem;
+    }
+}
 @media (min-width: 940px){
     .services {
         display: grid;
@@ -28,6 +33,24 @@ p, a, li, button {
         
         &__card--body p{
             line-height: 2.5rem;
+        }
+    }
+    .stay-productive {
+        flex-direction: row;
+        place-content: center;
+        gap: 6rem;
+
+        &__body h2 {
+            width: 40%;
+        }
+        &__body p {
+            line-height: 3rem;
+        }
+        &__header{
+            max-width: 600px;
+        }
+        &__body {
+            max-width: 600px;
         }
     }
 }
