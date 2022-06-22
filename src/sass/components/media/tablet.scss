@@ -23,6 +23,18 @@ p, a, li, button {
         line-height: 3rem;
     }
 }
+.get-started {
+    & form {
+        width: auto;
+    }
+    & form p {
+        line-height: 3rem;
+    }
+    &__container-input-button {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
 @media (min-width: 940px) {
     .services {
         display: grid;

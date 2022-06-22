@@ -1,0 +1,58 @@
+.get-started {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background: linear-gradient( to bottom,hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+
+    & form {
+        top: 50%;
+        position: relative;
+        max-width: 900px;
+        height: auto;
+        margin: 0 auto;
+        padding: 4rem;
+        text-align: center;
+        color: $white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 10px;
+        background: $dark-blue;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    & form h2 {
+        font-family: $font-body;
+    }
+    & form p {
+        line-height: 2rem;
+    }
+    &__container-input-button {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    & form input {
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 60px;
+        border: none;
+    }
+    & form input::placeholder {
+        opacity: 0.5;
+    }
+    & form button {
+        max-width: fit-content;
+        line-break: none;
+        height: 50px;
+        margin: 0 auto;
+        padding: 0 40px;
+        font-weight: bold;
+        border-radius: 60px;
+        border: none;
+        color: $white;
+        background: $cyan;
+        cursor: pointer;
+    }
+}
