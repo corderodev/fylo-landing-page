@@ -1,0 +1,56 @@
+.testimonials {
+    width: 100%;
+    height: auto;
+    padding: 10rem 2rem;
+    background: $dark-blue-main;
+    
+    &__container {
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+        padding: 1rem 0;
+        background-image: url(../assets/images/bg-quotes.png);
+        background-repeat: no-repeat;
+    }
+    &__container--card {
+        z-index: 2;
+        max-width: 420px;
+        height: auto;
+        margin: 40px auto;
+        padding: 3rem;
+        border-radius: 4px;
+        text-align: start;
+        color: $white;
+        background: $dark-blue-testimonials;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    &__container--card p {
+        line-height: 3rem;
+    }
+    .card--footer {
+        width: fit-content;
+        display: grid;
+        align-items: center;
+        grid-template-areas: 
+        "img name-person"
+        "img description";
+        gap: 0 20px;
+    }
+    .card--footer img{
+        width: 50px;
+        border-radius: 50%;
+        grid-area: img;
+    }
+    .card--footer p:nth-child(1) {
+        grid-area: description;
+    }
+    .card--footer p:nth-child(2) {
+        font-size: 1.6rem;
+        font-weight: bold;
+        grid-area: name-person;
+    }
+}

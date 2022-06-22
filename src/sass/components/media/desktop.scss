@@ -1,56 +1,8 @@
-h1 {
-    font-size: 2.4rem;    
-}
-
-h2 {
-    font-size: 2.2rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-p, a, li, button {
-    font-size: 1.8rem;
-}
-
 .home {
     background-image: url(../../assets/images/bg-curvy-desktop.svg);
-
-    &__heading, &__body, &__btn {
-        line-height: 3rem;
-    }
 }
-.stay-productive {
-    &__body p {
-        line-height: 3rem;
-    }
-}
-@media (min-width: 940px){
-    .services {
-        display: grid;
-        grid-template-columns: repeat(2, 400px);
-        gap: 10rem 10rem;
-        
-        &__card--body p{
-            line-height: 2.5rem;
-        }
-    }
-    .stay-productive {
-        flex-direction: row;
-        place-content: center;
-        gap: 6rem;
-
-        &__body h2 {
-            width: 40%;
-        }
-        &__body p {
-            line-height: 3rem;
-        }
-        &__header{
-            max-width: 600px;
-        }
-        &__body {
-            max-width: 600px;
-        }
+@media (min-width: 1400px) {
+    .testimonials__container {
+        grid-template-columns: repeat(3, 420px);
     }
 }
