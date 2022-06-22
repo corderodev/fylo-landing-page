@@ -35,6 +35,11 @@ p, a, li, button {
         grid-template-columns: 2fr 1fr;
     }
 }
+.footer {
+    &__container-contact p{
+        line-height: 3rem;
+    }
+}
 @media (min-width: 940px) {
     .services {
         display: grid;

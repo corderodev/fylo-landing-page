@@ -1,0 +1,76 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 8rem 2rem;
+    background: $dark-blue-footer;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    &__logo {
+        margin-left: 1rem;
+        width: fit-content;
+    }
+    &__container-contact {
+        color: $white;
+        text-align: start;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+        "icon-l text-l"
+        "icon-p text-p"
+        "icon-e text-e";
+        gap: 20px;
+    }
+    &__container-contact p {
+        line-height: 2rem;
+    }
+    &__container-contact img {
+        width: 15px;
+        margin: 8px auto;
+    }
+    &__container-contact img:nth-child(1){
+        grid-area: icon-l;
+    }
+    &__container-contact img:nth-child(3){
+        grid-area: icon-p;
+        width: 18px;
+    }
+    &__container-contact img:nth-child(5){
+        grid-area: icon-e;
+        width: 20px;
+    }
+    &__container-contact p:nth-child(2){
+        grid-area: text-l;
+        max-width: 400px;
+    }
+    &__container-contact p:nth-child(4){
+        grid-area: text-p;
+    }
+    &__container-contact p:nth-child(6){
+        grid-area: text-e;
+    }
+
+
+    &__container-links-1, &__container-links-2 {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__container-links-1 a, &__container-links-2 a{
+        text-decoration: none;
+        color: $white;
+    }
+
+
+    &__container-social {
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+    }
+    &__container-social img{
+        align-self: flex-start;
+        width: 40px;
+    }
+}

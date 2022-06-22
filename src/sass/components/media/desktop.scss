@@ -1,6 +1,36 @@
 .home {
     background-image: url(../../assets/images/bg-curvy-desktop.svg);
 }
+.footer {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "logo logo logo logo"
+    "contact links1 links2 social";
+
+    &__logo {
+        grid-area: logo;
+    }
+    &__container-contact {
+        grid-area: contact;
+    }
+    &__container-links-1 {
+        grid-area: links1;
+    }
+    &__container-links-2 {
+        grid-area: links2;
+    }
+    &__container-social {
+        grid-area: social;
+    }
+
+    &__container-contact {
+        grid-template-areas:
+        "icon-l text-l icon-p text-p"
+        "icon-l text-l icon-e text-e";
+    }
+}
 @media (min-width: 1400px) {
     .testimonials__container {
         grid-template-columns: repeat(3, 420px);
