@@ -1,4 +1,4 @@
-.stay-productive {
+.team {
     width: 100%;
     height: auto;
     padding: 5rem 2rem;
@@ -9,10 +9,10 @@
     gap: 4rem;
 
     
-    &__header{
+    &__header {
         max-width: 300px;
     }
-    &__header img{
+    &__header img {
         width: 100%;
     }
     &__body {
@@ -34,6 +34,17 @@
         color: $cyan;
         display: flex;
         align-items: center;
+    }
+    &__body a:hover, &__body a img:hover {
+        margin-left: 10px;
+        border-bottom: 1px solid $white;
+        transition: 400ms;
+        color: $white;
+        filter: grayscale(1);
+    }
+    &__body a img:hover {
+        margin-left: 0;
+        border: none;
     }
     &__body a img {
         width: 30px;

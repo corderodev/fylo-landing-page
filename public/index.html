@@ -22,9 +22,9 @@
 		</picture>
 		<nav class="header__nav">
 			<ul class="header__nav--links">
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Sign in</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#signin">Sign in</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -35,51 +35,51 @@
 			</div>
 			<h1 class="home__heading">All your files in one secure location, accesible anywhere.</h1>
 			<p class="home__body">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-			<a href="./index.html" class="home__btn">Get Started</a>
+			<a href="#" class="home__btn">Get Started</a>
 		</section>
-		<section class="services">
-			<div class="services__card">
-				<div class="services__card--header">
+		<section class="features" id="features">
+			<div class="features__card">
+				<div class="features__card--header">
 					<img src="./assets/images/icon-access-anywhere.svg" alt="image of devices like computer and mobile">
 				</div>
-				<div class="services__card--body">
+				<div class="features__card--body">
 					<h2>Access your files, anywhere</h2>
 					<p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
 				</div>
 			</div>
-			<div class="services__card">
-				<div class="services__card--header">
+			<div class="features__card">
+				<div class="features__card--header">
 					<img src="./assets/images/icon-security.svg" alt="image of devices like computer and mobile">
 				</div>
-				<div class="services__card--body">
+				<div class="features__card--body">
 					<h2>Access your files, anywhere</h2>
 					<p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
 				</div>
 			</div>
-			<div class="services__card">
-				<div class="services__card--header">
+			<div class="features__card">
+				<div class="features__card--header">
 					<img src="./assets/images/icon-collaboration.svg" alt="image of devices like computer and mobile">
 				</div>
-				<div class="services__card--body">
+				<div class="features__card--body">
 					<h2>Access your files, anywhere</h2>
 					<p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
 				</div>
 			</div>
-			<div class="services__card">
-				<div class="services__card--header">
+			<div class="features__card">
+				<div class="features__card--header">
 					<img src="./assets/images/icon-any-file.svg" alt="image of devices like computer and mobile">
 				</div>
-				<div class="services__card--body">
+				<div class="features__card--body">
 					<h2>Access your files, anywhere</h2>
 					<p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
 				</div>
 			</div>
 		</section>
-		<section class="stay-productive">
-			<div class="stay-productive__header">
+		<section class="team" id="team">
+			<div class="team__header">
 				<img src="./assets/images/illustration-stay-productive.png" alt="image of productive people">
 			</div>
-			<div class="stay-productive__body">
+			<div class="team__body">
 				<h2>Stay productive, wherever you are</h2>
 				<p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
 				<p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
@@ -114,13 +114,14 @@
 				</div>
 			</div>
 		</section>
-		<section class="get-started">
-			<form action="">
+		<section class="signin" id="signin">
+			<form>
 				<h2>Get early access today</h2>
 				<p>It only takes a minute to sign up and our free started tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-				<div class="get-started__container-input-button">
-					<input type="text" placeholder="email@example.com">
-					<button type="button">Get Started For Free</button>
+				<div class="signin__container-input-button">
+					<input id="inputSignUp" type="text" placeholder="email@example.com">
+					<button type="button" onclick="formValidation()">Get Started For Free</button>
+					<p id="formvalidationEvent"></p>
 				</div>
 			</form>
 		</section>
@@ -147,10 +148,17 @@
 			<a href="#">Privacy</a>
 		</div>
 		<div class="footer__container-social">
-			<img src="./assets/images/icon-facebook.svg" alt="icon facebook">
-			<img src="./assets/images/icon-twitter.svg" alt="icon twitter">
-			<img src="./assets/images/icon-instagram.svg" alt="icon instagram">
+			<a href="#">
+				<img src="./assets/images/icon-facebook.svg" alt="icon facebook">
+			</a>
+			<a href="#">
+				<img src="./assets/images/icon-twitter.svg" alt="icon twitter">
+			</a>
+			<a href="#">
+				<img src="./assets/images/icon-instagram.svg" alt="icon instagram">
+			</a>
 		</div>
 	</footer>
+	<script src="./js/index.js"></script>
 </body>
 </html>

@@ -3,21 +3,21 @@ $font-body: 'Raleway', sans-serif;
 
 // Colors
 // intro and email sign up background
-$dark-blue: hsl(217, 28%, 15%);
+$dark-blue: #1c2431;
 // main background
-$dark-blue-main: hsl(218, 28%, 13%);
+$dark-blue-main: #181f2a;
 // footer background
-$dark-blue-footer: hsl(216, 53%, 9%);
+$dark-blue-footer: #0b1523;
 // testimonials background
-$dark-blue-testimonials: hsl(219, 30%, 18%);
+$dark-blue-testimonials: #202a3c;
 // inside call-to-action gradient
-$cyan: hsl(176, 68%, 64%);
+$cyan: #65e2d9;
 // inside call-to-action gradient
-$blue: hsl(198, 60%, 50%);
+$blue: #339ecc;
 // error
-$light-red: hsl(0, 100%, 63%);
+$light-red: #ff4242;
 // neutral
-$white: hsl(0, 0%, 100%);
+$white: #ffffff;
 
 * {
     margin: 0;

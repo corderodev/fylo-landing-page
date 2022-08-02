@@ -58,9 +58,13 @@
         flex-direction: column;
         gap: 20px;
     }
-    &__container-links-1 a, &__container-links-2 a{
+    &__container-links-1 a, &__container-links-2 a {
         text-decoration: none;
         color: $white;
+        opacity: .8;
+    }
+    &__container-links-1 a:hover, &__container-links-2 a:hover {
+        opacity: 1;
     }
 
 
@@ -72,5 +76,9 @@
     &__container-social img{
         align-self: flex-start;
         width: 40px;
+        cursor: pointer;
+    }
+    &__container-social img:hover{
+        filter: saturate(.1);
     }
 }

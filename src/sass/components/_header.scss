@@ -28,5 +28,11 @@
     &__nav--links a {
         text-decoration: none;
         color: $white;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+    &__nav--links a:hover {
+        text-decoration: underline;
+        opacity: 1;
     }
 }

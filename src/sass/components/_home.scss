@@ -6,7 +6,6 @@
     background-image: url(../assets/images/bg-curvy-mobile.svg);
     background-position-x: center;
     background-position-y: 20vh;
-    // background-position-y: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -37,5 +36,12 @@
         border-radius: 60px;
         border: none;
         background: $blue;
+    }
+    &__btn:hover {
+        transition: 400ms;
+        background-color: $cyan;
+    }
+    &__btn:hover {
+        transition: 200ms;
     }
 }

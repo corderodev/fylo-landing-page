@@ -18,12 +18,12 @@ p, a, li, button {
         line-height: 3rem;
     }
 }
-.stay-productive {
+.team {
     &__body p {
         line-height: 3rem;
     }
 }
-.get-started {
+.signin {
     & form {
         width: auto;
     }
@@ -33,6 +33,11 @@ p, a, li, button {
     &__container-input-button {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        gap: 0 30px;
+    }
+    &__container-input-button input {
+        font-size: 1.8rem;
     }
 }
 .footer {
@@ -41,7 +46,7 @@ p, a, li, button {
     }
 }
 @media (min-width: 940px) {
-    .services {
+    .features {
         display: grid;
         grid-template-columns: repeat(2, 400px);
         gap: 10rem 10rem;
@@ -50,7 +55,7 @@ p, a, li, button {
             line-height: 2.5rem;
         }
     }
-    .stay-productive {
+    .team {
         flex-direction: row;
         place-content: center;
         gap: 6rem;
