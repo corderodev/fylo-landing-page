@@ -10,7 +10,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 ## Overview
 
@@ -27,8 +26,6 @@ Users should be able to:
 
 - Semantic HTML5
 - Sass
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned and practice
@@ -41,8 +38,3 @@ Also I practice:
 - Sass
 - GitHub Flow
 - Insert styles and text from JS
-
-## Author
-
-- Website - [Daniel Cordero](https://dnlambb.com/)
-- Social - [@dnlambb](https://twitter.com/dnlambb)
