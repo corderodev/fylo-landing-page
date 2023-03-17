@@ -1,13 +1,18 @@
-.home {
+.home-bg {
+    z-index: -1;
     width: 100%;
-    height: auto;
-    padding: 2rem 1rem;
-    text-align: center;
+    height: 100%;
     background-image: url(../assets/images/bg-curvy-mobile.svg);
     background-position-x: center;
-    background-position-y: 20vh;
+    background-position-y: 0;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.home {
+    width: 100%;
+    padding: 2rem 1rem;
+    height: auto;
+    text-align: center;
 
     &__banner {
         margin: 0 auto;
