@@ -50,3 +50,47 @@ p, a, li, button {
 main {
     overflow: hidden;
 }
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.4rem;    
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    p, a, li, button {
+        font-size: 1.8rem;
+    }
+    
+    .home {
+        &__heading, &__body, &__btn {
+            line-height: 3rem;
+        }
+    }
+    .team {
+        &__body p {
+            line-height: 3rem;
+        }
+    }
+    .signin {
+        & form {
+            width: auto;
+        }
+        & form p {
+            line-height: 3rem;
+        }
+        &__container-input-button {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 2fr 1fr;
+            gap: 0 30px;
+        }
+        &__container-input-button input {
+            font-size: 1.8rem;
+        }
+    }
+}
