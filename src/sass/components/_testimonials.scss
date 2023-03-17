@@ -54,3 +54,16 @@
         grid-area: name-person;
     }
 }
+@media (min-width: 940px) {
+    .testimonials__container {
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(2, 420px);
+        gap: 0 40px;
+    }
+}
+@media (min-width: 1400px) {
+    .testimonials__container {
+        grid-template-columns: repeat(3, 420px);
+    }
+}
