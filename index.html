@@ -10,8 +10,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./styles/index.css">
-	<link rel="stylesheet" href="./styles/media/tablet.css" media="screen and (min-width: 768px)">
-	<link rel="stylesheet" href="./styles/media/desktop.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
 	<header class="header">
@@ -29,14 +27,16 @@
 		</nav>
 	</header>
 	<main>
-		<section class="home">
-			<div class="home__banner">
-				<img src="./assets/images/illustration-intro.png" alt="Banner image of home. Reference a secure store.">
-			</div>
-			<h1 class="home__heading">All your files in one secure location, accesible anywhere.</h1>
-			<p class="home__body">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-			<a href="#" class="home__btn">Get Started</a>
-		</section>
+		<div class="home-bg">
+			<section class="home">
+				<div class="home__banner">
+					<img src="./assets/images/illustration-intro.png" alt="Banner image of home. Reference a secure store.">
+				</div>
+				<h1 class="home__heading">All your files in one secure location, accesible anywhere.</h1>
+				<p class="home__body">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+				<a href="#" class="home__btn">Get Started</a>
+			</section>
+		</div>
 		<section class="features" id="features">
 			<div class="features__card">
 				<div class="features__card--header">
@@ -127,36 +127,38 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<a class="footer__logo" href="./index.html"><img src="./assets/images/logo.svg" alt="Fylo logo"></a>
-		<div class="footer__container-contact">
-			<img src="./assets/images/icon-location.svg" alt="icon location">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam velit facilis labore quod ipsam facere commodi suscipit ullam magni!</p>
-			<img src="./assets/images/icon-phone.svg" alt="icon phone">
-			<p>+1-543-123-4567</p>
-			<img src="./assets/images/icon-email.svg" alt="icon email">
-			<p>example@fylo.com</p>
-		</div>
-		<div class="footer__container-links-1">
-			<a href="#">About Us</a>
-			<a href="#">Jobs</a>
-			<a href="#">Press</a>
-			<a href="#">Blog</a>
-		</div>
-		<div class="footer__container-links-2">
-			<a href="#">Contact Us</a>
-			<a href="#">Terms</a>
-			<a href="#">Privacy</a>
-		</div>
-		<div class="footer__container-social">
-			<a href="#">
-				<img src="./assets/images/icon-facebook.svg" alt="icon facebook">
-			</a>
-			<a href="#">
-				<img src="./assets/images/icon-twitter.svg" alt="icon twitter">
-			</a>
-			<a href="#">
-				<img src="./assets/images/icon-instagram.svg" alt="icon instagram">
-			</a>
+		<div class="footer-container">
+			<a class="footer__logo" href="./index.html"><img src="./assets/images/logo.svg" alt="Fylo logo"></a>
+			<div class="footer__container-contact">
+				<img src="./assets/images/icon-location.svg" alt="icon location">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam velit facilis labore quod ipsam facere commodi suscipit ullam magni!</p>
+				<img src="./assets/images/icon-phone.svg" alt="icon phone">
+				<p>+1-543-123-4567</p>
+				<img src="./assets/images/icon-email.svg" alt="icon email">
+				<p>example@fylo.com</p>
+			</div>
+			<div class="footer__container-links-1">
+				<a href="#">About Us</a>
+				<a href="#">Jobs</a>
+				<a href="#">Press</a>
+				<a href="#">Blog</a>
+			</div>
+			<div class="footer__container-links-2">
+				<a href="#">Contact Us</a>
+				<a href="#">Terms</a>
+				<a href="#">Privacy</a>
+			</div>
+			<div class="footer__container-social">
+				<a href="#">
+					<img src="./assets/images/icon-facebook.svg" alt="icon facebook">
+				</a>
+				<a href="#">
+					<img src="./assets/images/icon-twitter.svg" alt="icon twitter">
+				</a>
+				<a href="#">
+					<img src="./assets/images/icon-instagram.svg" alt="icon instagram">
+				</a>
+			</div>
 		</div>
 	</footer>
 	<script src="./index.js"></script>
