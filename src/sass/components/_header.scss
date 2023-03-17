@@ -5,7 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: $dark-blue;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 10;
 
     &__container-logo {
         width: 80px;
