@@ -51,3 +51,23 @@
         padding-left: 1rem;
     }
 }
+@media (min-width: 940px) {
+    .team {
+        flex-direction: row;
+        place-content: center;
+        gap: 6rem;
+
+        &__body h2 {
+            width: 40%;
+        }
+        &__body p {
+            line-height: 3rem;
+        }
+        &__header{
+            max-width: 600px;
+        }
+        &__body {
+            max-width: 600px;
+        }
+    }
+}
