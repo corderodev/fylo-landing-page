@@ -26,3 +26,14 @@
         line-height: 2rem;
     }
 }
+@media (min-width: 940px) {
+    .features {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10rem 10rem;
+        
+        &__card--body p{
+            line-height: 2.5rem;
+        }
+    }
+}
